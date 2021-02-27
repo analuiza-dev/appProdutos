@@ -14,7 +14,10 @@ import { MatCardModule } from '@angular/material/card'
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './view/home/home.component';
 import { ProductCrudComponent } from './view/product-crud/product-crud.component';
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { AquaDirective } from './directives/aqua.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component'
+import { MatButtonModule } from '@angular/material/button'
 
 @NgModule({
   declarations: [
@@ -23,16 +26,19 @@ import { AppRoutingModule } from './app-routing.module'
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    AquaDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    AppRoutingModule
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
