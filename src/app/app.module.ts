@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
@@ -18,6 +20,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AquaDirective } from './directives/aqua.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
 import { MatButtonModule } from '@angular/material/button'
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HttpClientModule } from  '@angular/common/http';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,8 @@ import { MatButtonModule } from '@angular/material/button'
     HomeComponent,
     ProductCrudComponent,
     AquaDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +44,11 @@ import { MatButtonModule } from '@angular/material/button'
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
