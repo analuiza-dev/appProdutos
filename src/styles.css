@@ -2,3 +2,23 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #FAFAFA; }
+
+.sidenav {
+    background-color: #292F33;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+}
+
+.mat-drawer-backdrop.mat-drawer-shown {
+    position: fixed
+}
+
+.nav-caption{
+    display: inline-block;
+    padding-left: 6px;
+}
+
+.product-content {
+    margin: 1em 2em;
+}

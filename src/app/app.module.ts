@@ -11,6 +11,7 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 
+import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatCardModule } from '@angular/material/card'
 import { MatListModule } from '@angular/material/list';
@@ -51,8 +52,9 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     MatFormFieldModule,
     MatTableModule,
+    MatIconModule
   ],
-  providers: [],
+  providers: [ MatIconModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

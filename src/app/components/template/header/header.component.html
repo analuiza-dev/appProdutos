@@ -1,4 +1,9 @@
 <mat-toolbar-row class="header mat-elevation-z8">
+    <div fxHide.gt-xs>
+        <button mat-icon-button appAqua (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
     <span>
         <a>
             <img class="logo" src="assets/img/tree.jpg" alt="logo">
