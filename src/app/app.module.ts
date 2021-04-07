@@ -10,7 +10,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
-
+import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatCardModule } from '@angular/material/card'
@@ -52,7 +52,8 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     MatFormFieldModule,
     MatTableModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule
   ],
   providers: [ MatIconModule],
   bootstrap: [AppComponent]

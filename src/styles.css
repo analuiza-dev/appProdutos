@@ -20,5 +20,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 }
 
 .product-content {
-    margin: 1em 2em;
+    padding: 1em 2em;
 }

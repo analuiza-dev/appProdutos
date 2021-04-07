@@ -15,16 +15,16 @@ form {
 
 input{
     /* background: #292F33; */
-    width: 95%;
-    height: 30px;
-    padding: 0 0.2rem;
-    margin-top: 0.1rem;
-    outline: none;
+    width: 80%;
+    /* height: 30px; */
+    /* padding: 0 0.2rem;
+    margin-top: 0.1rem; */
+    /* outline: none; */
     color: rgba(166, 166, 166);
-    font-size: 1rem;
-    font-family: cursive;
+    /* font-size: 1rem; */
+    /* font-family: cursive;
     border: 1px solid #0EC9A0;
-    border-radius: 8px;
+    border-radius: 8px; */
 }
 
 button {
